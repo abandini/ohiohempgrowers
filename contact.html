@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Ohio Hemp Growers Association</title>
+    <meta name="description" content="Contact the Ohio Hemp Growers Association for information about hemp cultivation, membership, or general inquiries. We're here to support Ohio's hemp farmers.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&family=Merriweather:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Ohio Hemp Growers Association Logo">
+                <div class="logo-text">Ohio Hemp Growers Association</div>
+            </div>
+            
+            <button class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="growing-guide.html">Growing Guide</a></li>
+                    <li><a href="regulations.html">Regulations</a></li>
+                    <li><a href="membership.html">Membership</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="market.html">Market</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="blog/">Blog</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- Page Banner -->
+    <section class="page-banner" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/contact-banner.jpg');">
+        <div class="container">
+            <h1>Contact Us</h1>
+        </div>
+    </section>
+    
+    <!-- Contact Info Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info-container">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Our Location</h3>
+                                <p>Ohio Hemp Growers Association<br>123 Agriculture Way<br>Columbus, OH 43215</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Phone</h3>
+                                <p>(614) 555-0123</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Email</h3>
+                                <p>info@ohiohempgrowers.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h3>Office Hours</h3>
+                                <p>Monday-Friday: 9:00 AM - 5:00 PM<br>Saturday-Sunday: Closed</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Form Section -->
+    <section class="section" style="background-color: rgba(44, 95, 45, 0.05);">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get in Touch</h2>
+            </div>
+            <p class="text-center">Have questions about hemp cultivation in Ohio or interested in joining our association? Contact us using the form below.</p>
+            
+            <div class="contact-form">
+                <form id="contact-form" action="https://getform.io/f/bolmoqya" method="POST">
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name <span class="required">*</span></label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email <span class="required">*</span></label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" class="form-control">
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="business" class="form-label">Farm/Business Name</label>
+                                <input type="text" id="business" name="business" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="county" class="form-label">County/Location</label>
+                                <select id="county" name="county" class="form-control form-select">
+                                    <option value="" selected disabled>Select your county</option>
+                                    <option value="Adams">Adams</option>
+                                    <option value="Allen">Allen</option>
+                                    <option value="Ashland">Ashland</option>
+                                    <option value="Ashtabula">Ashtabula</option>
+                                    <option value="Athens">Athens</option>
+                                    <option value="Auglaize">Auglaize</option>
+                                    <option value="Belmont">Belmont</option>
+                                    <option value="Brown">Brown</option>
+                                    <option value="Butler">Butler</option>
+                                    <option value="Carroll">Carroll</option>
+                                    <option value="Champaign">Champaign</option>
+                                    <option value="Clark">Clark</option>
+                                    <option value="Clermont">Clermont</option>
+                                    <option value="Clinton">Clinton</option>
+                                    <option value="Columbiana">Columbiana</option>
+                                    <option value="Coshocton">Coshocton</option>
+                                    <option value="Crawford">Crawford</option>
+                                    <option value="Cuyahoga">Cuyahoga</option>
+                                    <option value="Darke">Darke</option>
+                                    <option value="Defiance">Defiance</option>
+                                    <option value="Delaware">Delaware</option>
+                                    <option value="Erie">Erie</option>
+                                    <option value="Fairfield">Fairfield</option>
+                                    <option value="Fayette">Fayette</option>
+                                    <option value="Franklin">Franklin</option>
+                                    <option value="Fulton">Fulton</option>
+                                    <option value="Gallia">Gallia</option>
+                                    <option value="Geauga">Geauga</option>
+                                    <option value="Greene">Greene</option>
+                                    <option value="Guernsey">Guernsey</option>
+                                    <option value="Hamilton">Hamilton</option>
+                                    <option value="Hancock">Hancock</option>
+                                    <option value="Hardin">Hardin</option>
+                                    <option value="Harrison">Harrison</option>
+                                    <option value="Henry">Henry</option>
+                                    <option value="Highland">Highland</option>
+                                    <option value="Hocking">Hocking</option>
+                                    <option value="Holmes">Holmes</option>
+                                    <option value="Huron">Huron</option>
+                                    <option value="Jackson">Jackson</option>
+                                    <option value="Jefferson">Jefferson</option>
+                                    <option value="Knox">Knox</option>
+                                    <option value="Lake">Lake</option>
+                                    <option value="Lawrence">Lawrence</option>
+                                    <option value="Licking">Licking</option>
+                                    <option value="Logan">Logan</option>
+                                    <option value="Lorain">Lorain</option>
+                                    <option value="Lucas">Lucas</option>
+                                    <option value="Madison">Madison</option>
+                                    <option value="Mahoning">Mahoning</option>
+                                    <option value="Marion">Marion</option>
+                                    <option value="Medina">Medina</option>
+                                    <option value="Meigs">Meigs</option>
+                                    <option value="Mercer">Mercer</option>
+                                    <option value="Miami">Miami</option>
+                                    <option value="Monroe">Monroe</option>
+                                    <option value="Montgomery">Montgomery</option>
+                                    <option value="Morgan">Morgan</option>
+                                    <option value="Morrow">Morrow</option>
+                                    <option value="Muskingum">Muskingum</option>
+                                    <option value="Noble">Noble</option>
+                                    <option value="Ottawa">Ottawa</option>
+                                    <option value="Paulding">Paulding</option>
+                                    <option value="Perry">Perry</option>
+                                    <option value="Pickaway">Pickaway</option>
+                                    <option value="Pike">Pike</option>
+                                    <option value="Portage">Portage</option>
+                                    <option value="Preble">Preble</option>
+                                    <option value="Putnam">Putnam</option>
+                                    <option value="Richland">Richland</option>
+                                    <option value="Ross">Ross</option>
+                                    <option value="Sandusky">Sandusky</option>
+                                    <option value="Scioto">Scioto</option>
+                                    <option value="Seneca">Seneca</option>
+                                    <option value="Shelby">Shelby</option>
+                                    <option value="Stark">Stark</option>
+                                    <option value="Summit">Summit</option>
+                                    <option value="Trumbull">Trumbull</option>
+                                    <option value="Tuscarawas">Tuscarawas</option>
+                                    <option value="Union">Union</option>
+                                    <option value="Van Wert">Van Wert</option>
+                                    <option value="Vinton">Vinton</option>
+                                    <option value="Warren">Warren</option>
+                                    <option value="Washington">Washington</option>
+                                    <option value="Wayne">Wayne</option>
+                                    <option value="Williams">Williams</option>
+                                    <option value="Wood">Wood</option>
+                                    <option value="Wyandot">Wyandot</option>
+                                    <option value="Outside Ohio">Outside Ohio</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="interest" class="form-label">Interest</label>
+                                <select id="interest" name="interest" class="form-control form-select">
+                                    <option value="" selected disabled>Select your interest</option>
+                                    <option value="Growing">Growing</option>
+                                    <option value="Processing">Processing</option>
+                                    <option value="Investing">Investing</option>
+                                    <option value="Research">Research</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="experience" class="form-label">Current Hemp Experience</label>
+                                <select id="experience" name="experience" class="form-control form-select">
+                                    <option value="" selected disabled>Select your experience level</option>
+                                    <option value="None">None</option>
+                                    <option value="1-2 years">1-2 years</option>
+                                    <option value="3+ years">3+ years</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message <span class="required">*</span></label>
+                        <textarea id="message" name="message" class="form-control form-message" required></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <div class="form-check">
+                            <input type="checkbox" id="newsletter" name="newsletter" class="form-check-input">
+                            <label for="newsletter" class="form-check-label">Subscribe to our newsletter for industry updates</label>
+                        </div>
+                    </div>
+                    
+                    <!-- Honeypot field for spam protection -->
+                    <div class="form-group" style="display:none">
+                        <label for="hp">Leave this empty</label>
+                        <input type="text" name="_gotcha" id="hp">
+                    </div>
+                    
+                    <div class="form-group text-center">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        When can I apply for a hemp growing license in Ohio?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The application window runs from November 1 to March 31 each year through the Ohio Department of Agriculture.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What is the minimum acreage required to grow hemp in Ohio?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You must have at least 1/4 acre for outdoor cultivation or 1,000 square feet for indoor cultivation.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        How much does a hemp license cost?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The application fee is $100, and the license fee is $500 per growing location.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        What happens if my hemp tests above 0.3% THC?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>If your crop tests above the 0.3% THC limit, you may request one additional test. If it still exceeds the limit, the crop must be destroyed.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        Where can I purchase hemp seeds or starts?
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We maintain a list of reputable suppliers for our members. It's important to source from suppliers who can provide documentation of seed genetics and THC compliance.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center" style="margin-top: 2rem;">
+                <a href="resources.html#faq" class="btn btn-secondary">View All FAQs</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <img src="images/logo-white.png" alt="Ohio Hemp Growers Association Logo" width="180">
+                    </div>
+                    <p>Supporting Ohio farmers with hemp cultivation resources, education, and community.</p>
+                    <div class="footer-social">
+                        <a href="https://facebook.com/ohiohempgrowers" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/ohiohempgrow" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="https://instagram.com/ohiohempgrowers" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/company/ohiohempgrowers" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="growing-guide.html">Growing Guide</a></li>
+                        <li><a href="regulations.html">Regulations</a></li>
+                        <li><a href="membership.html">Membership</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-heading">Resources</h3>
+                    <ul>
+                        <li><a href="resources.html">Resource Library</a></li>
+                        <li><a href="market.html">Market Opportunities</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="blog/">Blog/News</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Columbus, OH 43215</p>
+                    <p><i class="fas fa-phone"></i> (614) 555-0123</p>
+                    <p><i class="fas fa-envelope"></i> info@ohiohempgrowers.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ohio Hemp Growers Association. All rights reserved. | <a href="https://www.handcraftedcomains.io" target="_blank">More Premium Domains →</a></p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
