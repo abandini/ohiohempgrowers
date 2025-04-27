@@ -85,7 +85,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 .then(response => {
                     if (response.ok) {
                         // Redirect to thank you page on success
-                        window.location.href = '/thank-you.html';
+                        window.location.href = 'thank-you.html';
                     } else {
                         alert('There was a problem submitting the form. Please try again later.');
                     }
@@ -223,5 +223,5 @@ function getUrlParameter(name) {
 
 // Check for success parameter and redirect if needed
 if (getUrlParameter('success') === 'true' && !window.location.pathname.includes('thank-you')) {
-    window.location.href = '/thank-you.html';
+    window.location.href = 'thank-you.html';
 }
