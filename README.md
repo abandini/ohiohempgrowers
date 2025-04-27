@@ -12,7 +12,7 @@ This project aims to provide tools, information, and resources to support hemp g
 - About (about.html): mission, team, partners
 - Growing Guide (growing-guide.html): hemp cultivation guide
 - Regulations (regulations.html): Ohio hemp regulations and cultivation laws (WIP)
-- Membership (membership.html): benefits and membership options (WIP)
+
 - Resources (resources.html): guides and documents library (WIP)
 - Events (events.html): upcoming workshops, conferences, meetings
 - Market (market.html): hemp market opportunities and buyers
