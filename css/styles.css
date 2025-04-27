@@ -152,6 +152,8 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
+  padding: 10px 0;
+  height: auto;
 }
 
 header.scrolled {
@@ -162,7 +164,7 @@ header.scrolled {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--spacing-md) 0;
+  padding: 10px 0;
 }
 
 .logo {
