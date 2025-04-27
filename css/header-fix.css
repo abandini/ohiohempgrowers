@@ -1,0 +1,32 @@
+/* Header fix to prevent content overlap */
+header {
+  height: 80px;
+}
+
+.thank-you-section {
+  padding-top: 120px !important;
+  margin-top: 0 !important;
+}
+
+.section {
+  padding-top: 100px;
+}
+
+.page-banner {
+  margin-top: 80px;
+  padding-top: 30px;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 70px;
+  }
+  
+  .thank-you-section {
+    padding-top: 100px !important;
+  }
+  
+  .section {
+    padding-top: 90px;
+  }
+}
